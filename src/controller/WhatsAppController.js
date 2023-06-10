@@ -2,7 +2,7 @@ import { Format } from './../util/Format';
 import { CameraController } from './CameraController';
 import { DocumentPreviewController } from './DocumentPreviewController';
 import { MicrophoneController } from './MicrophoneController';
-import { Firebase } from './../util/Firebase';
+import { Firebase } from './../util/FirebaseWrapper';
 import { User } from './../model/User';
 import { Chat } from './../model/Chat';
 import { Message } from '../model/Message';
@@ -22,7 +22,6 @@ export class WhatsAppController {
         this.initEvents();
         this.initAuth();
         this.checkNotifications();
-
     }
 
     checkNotifications() {

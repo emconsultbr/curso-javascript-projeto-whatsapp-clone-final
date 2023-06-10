@@ -1,4 +1,4 @@
-import { Firebase } from './../util/Firebase'
+import { Firebase } from './../util/FirebaseWrapper'
 import { ClassEvent } from '../util/ClassEvent';
 
 export class ContactsController extends ClassEvent {

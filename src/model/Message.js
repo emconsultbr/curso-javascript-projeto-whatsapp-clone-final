@@ -1,5 +1,5 @@
 import { Model } from './../util/Model'
-import { Firebase } from './../util/Firebase'
+import { Firebase } from './../util/FirebaseWrapper'
 import { Format } from '../util/Format';
 
 export class Message extends Model {

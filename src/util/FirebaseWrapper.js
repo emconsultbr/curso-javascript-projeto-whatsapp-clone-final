@@ -1,16 +1,18 @@
-import * as firebase from 'firebase'
-import * as firestore from 'firebase/firestore'
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 export class Firebase {
 
     constructor() {
-
+       // this.firebase = require('firebase/app')
+        //this.firestore = require('firebase/store')
         this.init();
 
     }
 
     init(){
-
+        
         if (!window._initializedFirebase) {
 
             firebase.initializeApp({
