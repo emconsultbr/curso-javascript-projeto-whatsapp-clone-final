@@ -5,10 +5,7 @@ import 'firebase/compat/firestore';
 export class Firebase {
 
     constructor() {
-       // this.firebase = require('firebase/app')
-        //this.firestore = require('firebase/store')
         this.init();
-
     }
 
     init(){

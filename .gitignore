@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+# Dist folder should not be commited
+dist/
+# lock should not be commited
+package-lock.json
